@@ -1,5 +1,12 @@
 # 模型编辑
-## 基于外部存储
+## 方法总结
+
+
+
+## 论文列表
+### 基于外部存储
+按模型外和模型内分类
+
 【IKE】Can We Edit Factual Knowledge by In-Context Learning? **(2023.05|EMNLP 2023)** [[paper](https://arxiv.org/abs/2305.12740)]
 
 【MQuAKE】MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions **(2023.05|EMNLP 2023)** [[paper](https://arxiv.org/abs/2305.14795)]
@@ -19,7 +26,7 @@
 【GRACE】Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors **(2022.11|NeurIPS 2023)** [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/95b6e2ff961580e03c0a662a63a71812-Abstract-Conference.html)]
 
 【CALINET】Calibrating Factual Knowledge in Pretrained Language Models **(2022.08|Findings of EMNLP 2022)** [[paper](https://arxiv.org/abs/2210.03329)]
-## 基于全局优化
+### 基于全局优化
 【F-Learning】Forgetting before Learning: Utilizing Parametric Arithmetic for Knowledge Updating in Large Language Models **(2023.11)** [[paper](https://arxiv.org/abs/2311.08011)]
 
 【PPA】Plug-and-Play Adaptation for Continuously-updated QA **(2022.04|Findings of ACL 2022)** [[paper](https://arxiv.org/abs/2204.12785)]
@@ -44,7 +51,7 @@
 
 【Hyper-Network】HyperNetworks **(2016.09|ICLR 2017)** [[paper](https://arxiv.org/abs/1609.09106)]
 
-## 基于定位再编辑
+### 基于定位再编辑
 【DEPN】DEPN: Detecting and Editing Privacy Neurons in Pretrained Language Models **(2023.10|EMNLP 2023)** [[paper](https://arxiv.org/abs/2310.20138)]
 
 【PMET】PMET: Precise Model Editing in a Transformer **(2023.08|AAAI 2024)** [[paper](https://arxiv.org/abs/2308.08742)]
