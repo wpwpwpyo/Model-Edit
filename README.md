@@ -35,6 +35,16 @@
 |  | KGEditor |  |  |  |  |  |  |  |  |  |  |  |  |
 |  | Hyper-Network |  |  |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | KN | FFN | W down → W ′ down | × | × | L × N × dh |  |  |  |  |  |  |  |
+|  | ROME | FFN | W down → W ′ down | × | × | dmdh | √ | √ | × | × | × | × | √ |
+|  | MEMIT | FFN | W down → W ′ down | × | √ | L × dmdh | √ | × | √ | √ | √ | √ | √ |
+|  | PMET | FFN | W down → W ′ down | × | √ | L × dmdh |  |  |  |  |  |  |  |
+|  | MALMEN | FFN | W down → W ′ down | √ | √ | L × dmdh |  |  |  |  |  |  |  |
+|  | BIRD | FFN | W down → W ′ down | √ | × | dmdh |  |  |  |  |  |  |  |
+|  | DEPN |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | PCGU |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | MEMITcsk |  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## 论文列表
 ### 基于外部存储
