@@ -18,6 +18,23 @@
 |  | LoRA | Attn or FFN | h → h + s · LoRA(x) | √ | √ | 2L × 2damdh |  |  |  |  |  |  |  |
 |  | MELO | Attn or FFN | h → h + s · LoRA(x) | √ | × | 2L × 2damdh |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | FT-L2 |  |  | ×? |  |  | √ | × | √ | √ | √ | √ | × |
+|  | FT-KL |  |  | ×? |  |  | √ | × | √ | √ | √ | √ | × |
+|  | EWC |  |  | ×? |  |  | √ | × | √ | √ | √ | √ | × |
+|  | CNP |  |  | √ |  |  | × | √ | √ | √ | √ | √ | √ |
+|  | FT-Constrained | Any | W → W ′ | √ | √ | 2 × L × dmdh |  |  |  |  |  |  |  |
+|  | ENN | Any | W → W ′ | √ | √ | 2 × L × dmdh | × | √ | √ | × | √ | × | × |
+|  | KE | Attn or FFN +auxiliary model | W → W ′ | √ | √ | 2 × L × dmdh | √ | √ | √ | × | × | × | √ |
+|  | SLAG | Attn or FFN +auxiliary model | W → W ′ | √ | √ | 2 × L × dmdh |  |  |  |  |  |  |  |
+|  | MEND | FFN +auxiliary model | W → W ′ | √ | √ | 2 × L × dmdh | √ | √ | √ | √ | × | × | √ |
+|  | F-Learning |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | PPA |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | [] |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | RecAdam |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | Editable Training |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | KGEditor |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | Hyper-Network |  |  |  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## 论文列表
 ### 基于外部存储
