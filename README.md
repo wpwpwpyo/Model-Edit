@@ -1,11 +1,17 @@
 # 模型编辑
 ## 基于外部存储
-【KAFT】Large Language Models with Controllable Working Memory
-【MemPrompt】Memory-assisted prompt editing to improve GPT-3 after deployment
-【SERAC】Memory-Based Model Editing at Scale
-【Language Patch】Fixing Model Bugs with Natural Language Patches
-【IKE】Can We Edit Factual Knowledge by In-Context Learning?
-【MQuAKE】MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions
+【KAFT】Large Language Models with Controllable Working Memory (2022.11) [[paper](https://arxiv.org/abs/2211.05110)]
+
+【MemPrompt】Memory-assisted prompt editing to improve GPT-3 after deployment (2022.01) [[paper](https://arxiv.org/abs/2201.06009)]
+
+【SERAC】Memory-Based Model Editing at Scale (ICML 2022.06) [[paper](https://arxiv.org/abs/2206.06520)]
+
+【Language Patch】Fixing Model Bugs with Natural Language Patches (EMNLP 2022.11) [[paper](https://arxiv.org/abs/2211.03318)]
+
+【IKE】Can We Edit Factual Knowledge by In-Context Learning? (2023.05) [[paper](https://arxiv.org/abs/2305.12740)]
+
+【MQuAKE】MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions (EMNLP 2023.05) [[paper](https://arxiv.org/abs/2305.14795)]
+
 
 【CALINET】Calibrating Factual Knowledge in Pretrained Language Models
 【GRACE】Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors
