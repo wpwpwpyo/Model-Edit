@@ -2,7 +2,22 @@
 ## 方法总结
 | 类别 | 方法 | 编辑范围 | 编辑方程 | 是否需要训练 | 批量编辑 | 编辑参数 | 保持架构？ | 只使用(xe,ye) | 单次非连续编辑 | 批量非连续编辑 | 单次连续编辑 | 批量连续编辑 | 扩展到大模型（>10B） |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-
+|  | IKE | memory+retriever | Input → [Mem : Input] | × | × | - |  |  |  |  |  |  |
+|  | MQuAKE |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | Language Patch | Output head + params | h → λh+ (1 − λ)Patch(x) | × | √ | dh × #Output |  |  |  |  |  |  |  |
+|  | KAFT |  |  |  |  |  |  |  |  |  |  |  |  |
+|  | SERAC | memory+classifier +auxiliary model | Output → Modelcf (x) | √ | √ | - | × | √ | √ | √ | √ | √ | √ |
+|  | MemPrompt | memory+retriever | Input → [Mem : Input] | × | √ | - |  |  |  |  |  |  |  |
+|  | T-Patcher | FFN+params | h → h + FFNadd(x) | √? | × | N × dh | × | × | √ | √ | √ | × | √ |
+|  | GRACE | FFN+codebook | h → GRACE(x) | √ | × | N × 2dh | × | √ | √ | √ | √ | √ | √ |
+|  | CALINET | FFN+params | h → h + FFNadd(x) | √ | √ | N × dh | √ | √ | √ | √ | × | × | √ |
+|  | MeLLo | memory+retriever | Input → [Mem : Input] | × | × | - |  |  |  |  |  |  |  |
+|  | ICE | prompt | Input → [Mem : Input] | × | × | - |  |  |  |  |  |  |  |
+|  | PokeMQA | memory+retriever | Input → [Mem : Input] | √ | × | - |  |  |  |  |  |  |  |
+|  | REMEDI | auxiliary model | h → REMEDI(x) | √ | × | dh × dh |  |  |  |  |  |  |  |
+|  | LoRA | Attn or FFN | h → h + s · LoRA(x) | √ | √ | 2L × 2damdh |  |  |  |  |  |  |  |
+|  | MELO | Attn or FFN | h → h + s · LoRA(x) | √ | × | 2L × 2damdh |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## 论文列表
 ### 基于外部存储
